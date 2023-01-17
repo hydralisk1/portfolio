@@ -82,6 +82,18 @@
   50% {border-color: white;}
 }
 
+@media (min-width: 20em) {
+  .helloWorld, .welcomeTyping {
+    font-size: 160%;
+  }
+}
+
+@media (min-width: 25em) {
+  .helloWorld, .welcomeTyping {
+    font-size: 180%;
+  }
+}
+
 @media (min-width: 30em) {
   .helloWorld, .welcomeTyping {
     font-size: 250%;

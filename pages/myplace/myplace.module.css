@@ -102,20 +102,32 @@
   }
 }
 
-@media (min-width: 60em) {
-  .animation > div > div {
-    height: 62px;
-    margin-bottom: 62px;
-  }
-
+@media (min-width: 40em) {
   .greetings {
-    display: flex;
+    display: block;
     font-size: 40px;
   }
 
   .profilePicContainer {
     width: 250px;
     margin-right: 24px;
+  }
+
+  .animation > div > div {
+    height: 62px;
+    margin-bottom: 62px;
+  }
+}
+
+@media (min-width: 60em) {
+  .greetings {
+    display: flex;
+    font-size: 40px;
+  }
+
+  .animation > div > div {
+    height: 62px;
+    margin-bottom: 62px;
   }
 }
 
