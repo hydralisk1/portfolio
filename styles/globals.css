@@ -6,6 +6,10 @@
   background-color: #222222;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
 }
