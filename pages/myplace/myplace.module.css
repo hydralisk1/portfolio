@@ -6,14 +6,14 @@
 .imgContainer {
   width: 100%;
   min-height: 600px;
-  background: radial-gradient(rgb(34, 34, 34, 0.7), #222222);
+  background: radial-gradient(rgb(34, 34, 34, 0.5), #222222);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .greetings {
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 700;
   background-color: transparent;
 }
