@@ -21,7 +21,7 @@ export default function MyPlace() {
               src={profilePic}
               width={250}
               height={250}
-              alt={'Joonil\'s profile picture'}
+              alt='Joonil profile picture'
               style={{
                 borderRadius: '50%',
                 marginRight: '1rem',
