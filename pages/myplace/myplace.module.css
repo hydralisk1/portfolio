@@ -1,0 +1,122 @@
+.topContainer {
+  width: 100%;
+  min-height: 600px;
+}
+
+.imgContainer {
+  width: 100%;
+  min-height: 600px;
+  background: radial-gradient(rgb(34, 34, 34, 0.7), #222222);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.greetings {
+  font-size: 40px;
+  font-weight: 700;
+  background-color: transparent;
+}
+
+.greetings * {
+  background-color: transparent;
+}
+
+.animation {
+  height: 62px;
+  overflow: hidden;
+  margin-left: 1rem;
+}
+
+.animation > div > div {
+  padding: 4px 12px;
+  height: 62px;
+  margin-bottom: 62px;
+  display: inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 12s infinite;
+}
+
+.first div {
+  background-color: #20a7d8;
+}
+
+.second div {
+  background-color: #CD921E;
+}
+
+.third div {
+  background-color: #C10528;
+}
+
+.forth div {
+  background-color: #05c124;
+}
+
+.greetingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profilePicContainer {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 16px;
+  border: 1px solid white;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 12px;
+  width: 300px;
+  margin-top: 32px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #222222;
+}
+
+@media (min-width: 30em) {
+  .greetings {
+    display: block;
+  }
+
+  .profilePicContainer {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+}
+
+@media (min-width: 60em) {
+  .greetings {
+    display: flex;
+  }
+
+  .profilePicContainer {
+    width: 250px;
+    margin-right: 24px;
+  }
+}
+
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -119px;}
+  30% {margin-top: -238px;}
+  40% {margin-top: -357px;}
+  60% {margin-top: -357px;}
+  70% {margin-top: -238px;}
+  80% {margin-top: -119px;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}

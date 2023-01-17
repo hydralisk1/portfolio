@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Welcome from "@/components/Welcome"
 
 export default function Home() {
   return (
@@ -7,6 +8,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
         <title>Hi! I'm Joonil</title>
       </Head>
+      <Welcome />
     </>
   )
 }
