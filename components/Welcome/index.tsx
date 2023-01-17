@@ -41,7 +41,7 @@ export default function Welcome() {
             {
               progress > 0 &&
               <div>
-                <div className={styles.welcomeTyping}>Welcome to Joonil's Place</div>
+                <div className={styles.welcomeTyping}>Welcome to Joonil&apos;s Place</div>
               </div>
             }
         </>}
