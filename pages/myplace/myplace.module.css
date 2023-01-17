@@ -13,7 +13,6 @@
 }
 
 .greetings {
-  font-size: 38px;
   font-weight: 700;
   background-color: transparent;
 }
@@ -32,6 +31,7 @@
   padding: 4px 12px;
   height: 62px;
   margin-bottom: 62px;
+  white-space: nowrap;
   display: inline-block;
 }
 
@@ -89,6 +89,7 @@
 @media (min-width: 30em) {
   .greetings {
     display: block;
+    font-size: 32px;
   }
 
   .profilePicContainer {
@@ -101,6 +102,7 @@
 @media (min-width: 60em) {
   .greetings {
     display: flex;
+    font-size: 40px;
   }
 
   .profilePicContainer {
