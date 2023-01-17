@@ -31,7 +31,7 @@ export default function MyPlace() {
           <div className={styles.greetingContainer}>
             <span>Hello! 👋</span>
             <div style={{display: 'flex'}}>
-              <p>I'm</p>
+              <p>I&apos;m</p>
               <section className={styles.animation}>
                 <div className={styles.first}><div>Joonil Kim</div></div>
                 <div className={styles.second}><div>Frontend Developer</div></div>
