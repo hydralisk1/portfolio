@@ -25,7 +25,8 @@ export default function Skills () {
   }
 
   return (<>
-    <div className={styles.container}>
+    <div id='skills' className={styles.container}>
+      <div className={styles.skillTag}>Skills I Have</div>
       <div className={styles.skillsContainer}>
         <div className={styles.skillContainer}>
           <div className={styles.title}>Frontend</div>
@@ -33,7 +34,7 @@ export default function Skills () {
             {mySkills.frontEnd.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>
         </div>
-        <div id='skills' className={styles.skillContainer}>
+        <div className={styles.skillContainer}>
           <div className={styles.title}>Backend</div>
           <ul className={styles.skills}>
             {mySkills.backEnd.map((skill, i) => <li key={i}>{skill}</li>)}

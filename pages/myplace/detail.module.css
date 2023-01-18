@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.detailContainer {
+  max-width: 1200px;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 1rem;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.8;
+}
