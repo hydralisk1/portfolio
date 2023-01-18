@@ -44,7 +44,7 @@
 @media (min-width: 30em) {
   .skillsContainer {
     grid-template-columns: 100%;
-    gap: 1rem;
+    row-gap: 1rem;
   }
 
   .containter {

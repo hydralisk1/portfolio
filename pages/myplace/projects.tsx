@@ -28,7 +28,7 @@ export default function Projects() {
         My Projects
       </div>
       <div className={styles.projectsContainer}>
-        {myProjects.map((obj, i) => <a key={obj.url} href={obj.url} target='_blank'>
+        {myProjects.map((obj, i) => <a key={obj.url} href={obj.url} target='_blank' rel="noreferrer">
           <div key={obj.name + i} className={styles.projectContainer}>
             <div key={i} className={styles.projectImg}>
               <Image
