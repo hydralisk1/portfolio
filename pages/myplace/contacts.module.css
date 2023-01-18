@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  min-height: 400px;
+}
+
+.contactsTag {
+  max-width: 1200px;
+  width: 100%;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.contactsContainer {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.contacts {
+  display: flex;
+  width: 100%;
+}
