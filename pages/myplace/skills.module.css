@@ -41,7 +41,7 @@
   margin-inline-start: 40px;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 20em) {
   .skillsContainer {
     grid-template-columns: 100%;
     row-gap: 1rem;
